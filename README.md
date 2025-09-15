@@ -1,3 +1,5 @@
+<h1 align="center"><strong> Fine-Grained Cross-View Localization </strong></h1>
+
 
 ## Installation
 
@@ -11,3 +13,10 @@ python -m pip install -r requirements/full.txt
 ```
 
 The project is equipped with Pytorch==2.4.1
+
+
+## 📝 TODO List
+
+- [x] Add evaluation codes.
+- [x] Add training codes.
+- [x] Add data preparation codes.
