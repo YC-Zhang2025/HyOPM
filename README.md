@@ -256,14 +256,6 @@ Expected outputs include:
 - [ ] Pretrained KITTI models
 - [ ] Reproduction logs
 
-Check the completed items before the public release.
-
-## Limitations
-
-- The hybrid BEV transformation is designed primarily for panoramic ground-view inputs. Perspective images require an adapted view-transformation strategy.
-- The orientation-prior module predicts a coarse yaw prior rather than directly regressing a continuous angle.
-- Extreme occlusion, weak visual landmarks, large height variation, and substantial seasonal appearance changes remain challenging.
-- OGH-Net performs fine-grained localization within a candidate satellite region and does not replace a large-scale retrieval stage.
 
 ## Citation
 
