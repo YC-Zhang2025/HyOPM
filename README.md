@@ -289,9 +289,4 @@ This work builds on research in fine-grained cross-view localization, learned ho
 
 The source-code license will be specified in the `LICENSE` file. The VIGOR and KITTI datasets are distributed under their respective licenses and terms of use.
 
-## Contact
 
-For questions, please open a GitHub issue or contact:
-
-- **Yangchun Zhang:** `b220900493@hnu.edu.cn`
-- GitHub: [YC-Zhang2025](https://github.com/YC-Zhang2025)
