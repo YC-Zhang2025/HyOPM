@@ -24,13 +24,10 @@ OGH-Net estimates the precise **2D position and yaw orientation** of a ground-vi
 
 > **Scope.** OGH-Net addresses fine-grained pose refinement given a corresponding satellite patch. It is not intended as a city-scale image-retrieval system.
 
-<!--
-Add the overview image from Fig. 2 to assets/oghnet_overview.png, and then uncomment:
-
 <p align="center">
-  <img src="assets/oghnet_overview.png" width="95%" alt="OGH-Net overview">
+  <img src="assets/fig2_oghnet_overview.png" width="95%" alt="Overview of OGH-Net">
 </p>
--->
+<p align="center"><em>Figure 2. Overview, detailed architecture, and supervision of OGH-Net.</em></p>
 
 ## News
 
@@ -92,6 +89,11 @@ The final homography is used to recover the camera position and yaw.
 | Cross-Area, ±180° | 5.03 | 2.33 | 20.22 | 3.72 |
 
 Under the **Cross-Area, ±180°** setting, OGH-Net reduces the mean localization error by **11%** and the mean orientation error by **27%** relative to the comparison method reported in the paper.
+
+<p align="center">
+  <img src="assets/fig5_vigor_qualitative.png" width="95%" alt="Qualitative results on VIGOR">
+</p>
+<p align="center"><em>Figure 5. Qualitative comparison on the VIGOR dataset.</em></p>
 
 ### KITTI
 
@@ -274,5 +276,3 @@ This work builds on research in fine-grained cross-view localization, learned ho
 ## License
 
 The source-code license will be specified in the `LICENSE` file. The VIGOR and KITTI datasets are distributed under their respective licenses and terms of use.
-
-
