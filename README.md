@@ -129,12 +129,12 @@ The principal settings reported in the paper are listed below.
 | Optimizer | Adam |
 | Maximum learning rate | \(3.8 \times 10^{-4}\) |
 | Batch size | 20 |
-| Training epochs | 68 |
-| Position-loss weight \(\alpha_1\) | 0.1 |
-| Orientation-loss weight \(\alpha_2\) | 1 |
-| Classification-loss weight \(\alpha_3\) | 50 |
-| Iteration decay factor \(\lambda\) | 0.85 |
-| Local correlation radius | 4 (9 × 9 window) |
+#| Training epochs | 68 |
+#| Position-loss weight \(\alpha_1\) | 0.1 |
+#| Orientation-loss weight \(\alpha_2\) | 1 |
+#| Classification-loss weight \(\alpha_3\) | 50 |
+#| Iteration decay factor \(\lambda\) | 0.85 |
+#| Local correlation radius | 4 (9 × 9 window) |
 
 ## Installation
 
